@@ -26,26 +26,7 @@ assert round(weighted_mean(test_r2, test_w), 2) == 2.83
 assert round(weighted_mean(test_r3, test_w), 2) == 2.53
 
 
-def get_sorted_ratings(studentID, songs):
-    # db[studentID].items() needs to be turned into a list so that when db[studentID] is popped, it doesn't get updated
-    return {song: db[studentID].pop(song) for song, rating in list(db[studentID].items()) if song in songs and song != 'Adv Topics'}
-
-db_depue = get_sorted_ratings('wdepue', dj_spell_song_tbl)
-
-#print(db_depue)
-
-for student in db:
-    if student != 'wdepue':
-        for song in db[student]:
-            pass
-
-w_wdepue = []
-
-for student in db:
-    if student != 'wdepue':
-        w_wdepue.append(sim_pearson('wdepue', student, db))
-
-def get_ratings(song, students_to_avoid=[]):
+def get_song_ratings(song, students_to_avoid=[]):
     ratings = []
 
     for sID, s_ratings in db.items():
@@ -59,13 +40,36 @@ def get_ratings(song, students_to_avoid=[]):
 
     return ratings
 
-r_wdepue = get_ratings('Ligeiros', 'wdepue')
 
-assert len(w_wdepue) == len(r_wdepue)
+def pop_student_ratings(studentID, songs):
+    # db[studentID].keys() needs to be turned into a list so that when db[studentID] is popped, it doesn't get updated
+    return {song: db[studentID].pop(song) for song in list(db[studentID].keys()) if song in songs and song != 'Adv Topics'}
 
-print(r_wdepue)
-print(w_wdepue)
 
-result = weighted_mean(r_wdepue, w_wdepue)
+def recommend(studentID, song_pool=song_tbl):
+    query_student = studentID
+    weights = []
+    weighted_means = []
 
-print(result)
+    # if the query student participated in the ratings (is in the database)...
+    if query_student in db.keys():
+        # ...and if the query student has rated any songs in the song_pool
+        if len(set(db[query_student].keys()).intersection(set(song_pool))) > 0:  
+            # remove those ratings
+            global query_student_ratings
+            query_student_ratings = pop_student_ratings(query_student, dj_spell_song_tbl)
+
+    for student in db:
+        if student != query_student:
+            weights.append(sim_pearson(query_student, student, db))
+
+    for song in song_pool:
+        song_ratings = get_song_ratings(song, [query_student])
+        weighted_means.append((weighted_mean(song_ratings, weights), song))
+
+    weighted_means.sort(reverse=True)
+
+    return [s for _, s in weighted_means]
+
+print(recommend('wdepue', dj_spell_song_tbl))
+print(query_student_ratings)
