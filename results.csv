@@ -1,24 +1,35 @@
 wdepue
 Euclidean Recommendations,Space Cowboy,Riders on the Storm,Blue Train,Born Under a Bad Sign,Rapture's Delight,Quarantine Speech,Symphone Concertante,Ligeiros,Electric Funeral,Putty Boy Strut
-Scores,3.55,3.47,3.31,3.29,3.26,3.14,3.02,2.99,2.84,2.59
+Scores,3.5459037574039547,3.4698945967999655,3.3111526891088907,3.2861500479481838,3.2597419140983677,3.1412324315465976,3.021897096844115,2.987290481400443,2.842642255367821,2.592965882263041
+""
 Pearson Recommended Songs,Space Cowboy,Ligeiros,Quarantine Speech,Riders on the Storm,Putty Boy Strut,Rapture's Delight,Born Under a Bad Sign,Electric Funeral,Blue Train,Symphone Concertante
-Scores,3.47,3.32,3.21,3.14,3.14,3.05,3.02,2.92,2.87,2.81
+Scores,3.4744124667378147,3.321801695324944,3.207587194155805,3.144418429606497,3.138466152012694,3.0459891986314998,3.024508638679134,2.922185425903002,2.869420142777022,2.807194744335363
+""
 Actual Favorite Songs,Ligeiros,Blue Train,Riders on the Storm,Quarantine Speech,Born Under a Bad Sign,Space Cowboy,Symphone Concertante,Rapture's Delight,Electric Funeral,Putty Boy Strut
 Ratings,5.0,5.0,4.0,4.0,4.0,3.0,2.0,2.0,2.0,1.0
 ""
 sfogg
-Euclidean Recommendations,Space Cowboy,Riders on the Storm,Rapture's Delight,Blue Train,Born Under a Bad Sign,Quarantine Speech,Ligeiros,Symphone Concertante,Electric Funeral,Putty Boy Strut
-Scores,3.52,3.46,3.28,3.25,3.22,3.05,2.98,2.93,2.78,2.49
-Pearson Recommended Songs,Riders on the Storm,Symphone Concertante,Space Cowboy,Rapture's Delight,Ligeiros,Electric Funeral,Born Under a Bad Sign,Blue Train,Putty Boy Strut,Quarantine Speech
-Scores,3.66,3.47,3.24,3.22,3.14,3.05,2.99,2.77,2.36,2.18
+Euclidean Recommendations,Space Cowboy,Riders on the Storm,Blue Train,Rapture's Delight,Born Under a Bad Sign,Quarantine Speech,Ligeiros,Symphone Concertante,Electric Funeral,Putty Boy Strut
+Scores,3.5096702519078002,3.47871478777323,3.2929774765211146,3.244017940541954,3.2433130882272727,3.074184591143161,3.04960346503444,2.8526661799131756,2.7624791045116432,2.4511102414957424
+""
+Pearson Recommended Songs,Riders on the Storm,Ligeiros,Space Cowboy,Symphone Concertante,Rapture's Delight,Born Under a Bad Sign,Blue Train,Electric Funeral,Quarantine Speech,Putty Boy Strut
+Scores,3.6970833468764766,3.3512572236466673,3.217542567240834,3.180416986303324,3.108111119848273,3.059796855989406,2.9688712638569967,2.9612217505239338,2.337436680173997,2.2504977964097277
+""
 Actual Favorite Songs,Quarantine Speech,Blue Train,Putty Boy Strut,Electric Funeral,Space Cowboy,Born Under a Bad Sign,Rapture's Delight
 Ratings,4.0,4.0,3.0,3.0,2.0,2.0,1.0
 ""
 jsarkis
-Euclidean Recommendations,Space Cowboy,Riders on the Storm,Blue Train,Born Under a Bad Sign,Rapture's Delight,Quarantine Speech,Symphone Concertante,Ligeiros,Electric Funeral,Putty Boy Strut
-Scores,3.54,3.48,3.35,3.29,3.28,3.06,3.01,2.92,2.76,2.49
-Pearson Recommended Songs,Symphone Concertante,Riders on the Storm,Blue Train,Born Under a Bad Sign,Electric Funeral,Rapture's Delight,Space Cowboy,Ligeiros,Putty Boy Strut,Quarantine Speech
-Scores,4.37,3.81,3.74,3.54,3.1,2.85,2.78,2.51,1.85,1.79
+Euclidean Recommendations,Riders on the Storm,Space Cowboy,Blue Train,Born Under a Bad Sign,Rapture's Delight,Quarantine Speech,Ligeiros,Symphone Concertante,Electric Funeral,Putty Boy Strut
+Scores,3.4999421751235764,3.4827103245109257,3.4089559231885254,3.272062116149031,3.1827207790570133,3.1120575130122146,2.9822696174832743,2.9325829263580205,2.749041533737231,2.469617302391194
+""
+Pearson Recommended Songs,Symphone Concertante,Riders on the Storm,Blue Train,Born Under a Bad Sign,Electric Funeral,Space Cowboy,Rapture's Delight,Ligeiros,Quarantine Speech,Putty Boy Strut
+Scores,4.462170580939282,3.8024506684983126,3.7577262537567537,3.339562202581278,3.1036470065681994,2.679871283687516,2.5909849035931996,2.4580438624925702,2.0259838652696414,2.008294615361551
+""
 Actual Favorite Songs,Ligeiros,Electric Funeral,Symphone Concertante,Space Cowboy,Riders on the Storm,Rapture's Delight,Quarantine Speech,Putty Boy Strut,Born Under a Bad Sign,Blue Train
 Ratings,4.0,4.0,3.0,3.0,3.0,3.0,2.0,2.0,2.0,1.0
+""
+tsarkis
+Pearson Recommended Songs,We're Going to Be Friends,Rollin' Stone ,Hammer To Fall,Feeling Good,Strasbourg/ St. Denis,For What It's Worth,Higher Ground,Riders on the Storm,Carry on My Wayward Son,Blue Train,Campus,Treaty,Carolina In My Mind,Miami 2017 ,I'll Never Smile Again,Cayendo,Rain On Me,Ligeiros,Circles,Cabin Fever,Time Alone With You,Space Cowboy,Coast of Carolina,Sweden,Pacific Coast Party,Young Dumb and Broke,Got it Good,Scrubs,Survivor,Broken Bearings,Putty Boy Strut,Touch-Tone Telephone
+Scores,5.465578723530656,5.234573396094144,5.234573396094144,5.046063597868739,4.849929076106625,4.7928139837777675,4.51047632651093,4.484777674063179,4.360361965248547,4.156155830666411,4.1449450190822885,4.1345541654150875,4.104255339784592,3.959975402674263,3.7262984105542896,3.4784984493925206,3.3771804064445696,3.3596076519040072,3.313022236042582,3.2104378885739475,3.18011244623672,3.158428228593685,3.1137807676098674,2.950472627762128,2.7315043239551597,2.543176519032799,2.436035949667878,2.3589552531725904,1.6887854545773937,1.1917051312325784,0.9808778853918673,0.969920911822814
+Actual Ratings,5,4,5,5,5
 ""
